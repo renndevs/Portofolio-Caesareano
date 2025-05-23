@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["echo 'No build necessary for static site'"]
+
+[start]
+cmd = "static-web-server --port $PORT --root ."
