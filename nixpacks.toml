@@ -2,4 +2,4 @@
 cmds = ["echo 'No build necessary for static site'"]
 
 [start]
-cmd = "static-web-server --port $PORT --root ."
+cmd = "static-web-server --port $PORT --root . --default-file porto.html"
